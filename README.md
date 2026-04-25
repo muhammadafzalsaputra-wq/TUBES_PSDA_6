@@ -6,6 +6,7 @@ Nama Anggota:
 3.Jenny Ramadhani Putri (75)
 
 
+
 TINJAUAN UMUM SISTEM
 
   Pada zaman sekarang teknologi saat ini banyak mendorong munculnya suatu aplikasi seperti pembelian makanan atau pemesanan 

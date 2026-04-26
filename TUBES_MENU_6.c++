@@ -26,7 +26,7 @@ Makanan menu[] = {
 
 int jumlahMenu = 5;
 
-// ===== UTIL =====
+
 void border() {
     cout << "========================================\n";
 }
@@ -36,7 +36,7 @@ string toLower(string str) {
     return str;
 }
 
-// ===== LOGIN =====
+
 bool login() {
     string user, pass;
 
@@ -44,7 +44,7 @@ bool login() {
     cout << "Username : "; cin >> user;
     cout << "Password : "; cin >> pass;
 
-    // Multi user sederhana
+    
     if ((user == "Ali" && pass == "123") ||
         (user == "Afzal" && pass == "111")) {
         return true;
@@ -52,7 +52,7 @@ bool login() {
     return false;
 }
 
-// ===== MENU =====
+
 void tampilMenu() {
     border();
     cout << "          MENU MAKANAN\n";
@@ -64,7 +64,7 @@ void tampilMenu() {
     border();
 }
 
-// ===== SEARCH =====
+
 int cariMenu(string nama) {
     string input = toLower(nama);
 
@@ -77,7 +77,7 @@ int cariMenu(string nama) {
     return -1;
 }
 
-// ===== MAIN =====
+
 int main() {
     border();
     cout << "          APLIKASI PESAN MAKANAN\n";
